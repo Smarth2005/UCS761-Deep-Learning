@@ -1,6 +1,6 @@
 ## UCS761 Deep Learning 
 
-This repository showcases a series of deep learning lab experiments and projects, covering key concepts from basic perceptrons to advanced models like CNNs, RNNs, and GANs. Each lab is organized systematically with problem statements, implementations, and results, along with a group project and supporting learning resources.
+This repository showcases a series of deep learning lab experiments and projects, covering key concepts from basic perceptrons to advanced models like CNNs, RNNs, and GANs. Each lab is organized systematically with problem statements, implementations, and results, along with group project completed at the end of semester.
 
 #### Author: Smarth Kaushal | Roll No. 102497023 | Lab 2026
 
@@ -22,7 +22,11 @@ UCS761-Deep-Learning/
 │   ├── Lab-1 Perceptrons.ipynb
 │   ├── Lab-2 Logistic Regression using Perceptron.ipynb
 │   ├── Lab-3 Multiple Linear Regression using Perceptron.ipynb
-│   └── Lab-4 Backpropagation in MLP.ipynb
+│   ├── Lab-4 Backpropagation in MLP.ipynb
+│   ├── Lab-5 MNIST Digit Classification.ipynb
+│   ├── Lab-6 Transfer Learning.ipynb
+│   ├── Lab-7 Time Series Analysis.ipynb
+│   └── Lab-8 Image Super Resolution using GAN, SRGAN & ESRGAN.ipynb
 │
 ├── NVIDIA-Fundamentals of Deep Learning/
 │   ├── Activation_functions.ipynb
