@@ -49,11 +49,18 @@ UCS761-Deep-Learning/
 | 7. | Forecast electrical consumption for the next 10 years using RNN, LSTM, GRU & Vision transformer. | [👆](https://www.kaggle.com/code/nageshsingh/predict-electricity-consumption) [Kaggle]|
 | 8. | Implement Image Super Resolution using GAN, SRGAN & ESRGAN | [👆](https://www.kaggle.com/datasets/adityachandrasekhar/image-super-resolution) [Kaggle]|
 
-## 🧑‍💻 Project
+## 🧑‍💻 Final Project: Pathological Gait Anomaly Detection
+**Objective:** Develop an unsupervised deep learning pipeline to monitor walking patterns and detect pathological anomalies (e.g., post-stroke hemiplegia or mobility issues) using wearable sensors outside of a clinical setting.  
 
-- **Problem:** Pathological Gait & Activity Recognition: Monitoring walking patterns to detect anomalies (like a post-stroke hemiplegic limp or general mobility issues) outside of a clinical setting.
-- **Dataset:** [Open](https://github.com/romanchereshnev/HuGaDB)
-- **Repository:** *Will be updated soon*
+**Dataset: [HuGaDB](https://github.com/romanchereshnev/HuGaDB)** (18 subjects, 38-channel IMU/EMG data)
+
+**Key Technical Highlights:**
+- **Data Engineering:** Automated the detection and correction of severe hardware sensor corruption (10x amplification and clipping artifacts) across 450+ files.
+- **Clinical Interpretability:** Engineered medical gait biomarkers (Symmetry Index, Harmonic Ratio, Step Regularity) to provide interpretable context to the AI's predictions.
+- **Model Architecture:** Designed and evaluated a baseline **LSTM Autoencoder** against a state-of-the-art **Patch-based Transformer Autoencoder**.
+- **Results:** The Transformer architecture achieved a **40% tighter anomaly threshold** and a **~32% reduction in reconstruction error**, demonstrating superior capability in modeling healthy biomechanics.
+
+🔗 **[View the Project Repository](https://github.com/Smarth2005/gait-anomaly-detection)** | 📄 **[Read the IEEE Project Report](https://github.com/Smarth2005/gait-anomaly-detection/blob/main/docs/Project%20Report.pdf)**
 
 ## 🎓 Coursera Courses
 
